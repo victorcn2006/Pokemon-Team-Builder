@@ -1,0 +1,210 @@
+@font-face{
+    font-family: 'Poppins ExtraBold';
+    src:url('../assets/fonts/poppins/Poppins-Bold.ttf');
+    font-weight:1000;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'PoppinsSemiBold';
+    src:url('../assets/fonts/poppins/Poppins-SemiBold.ttf');
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src:url('../assets/fonts/poppins/Poppins-Bold.ttf');
+    font-weight:800;
+    font-style:normal;
+}
+
+/*Body flex container*/
+.body-flex-container{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+/*Body flex vertical items*/
+.flex-item.top-6 {
+    display:flex;
+    flex-direction:row;
+    height:6vh;
+}
+/*Top Container Logo & Button*/
+.frontpage-left-logo-container{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+}
+    /*Logo Container*/
+.frontpage-image-logo{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
+
+.empty-center-container{
+    flex:3;
+}
+.right-top-container{
+    flex:1;
+    display:flex;
+    align-items: center;
+    padding: 20px 20px 0 0;
+    justify-content: left;
+}
+
+.flex-item.bottom-30{
+    height:30vh;
+    display:flex;
+    flex-direction: row;
+}
+
+.flex-item.center-auto  {
+    flex:1;
+    display:flex;
+}
+
+/*Horizontal center flex container*/
+.flex-center-horizontal-container{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
+
+/*Horizontal center items*/
+.h-flex-item.left{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+.h-flex-item.center{
+    flex:4;
+    display:flex;
+    flex-direction:column;
+}
+.h-flex-item.right{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+/*Side vertical container*/
+.top-pokemon-container,
+.bottom-pokemon-container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*Pokemons Container*/
+.pokemon-container{
+    max-width: 50%;
+    max-height:50%;
+    object-fit:contain;
+}
+
+/*Center Container Divs*/
+.top-title-container{
+    flex:2;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.description-container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.center-info-container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.bottom-button-container{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*Front page text containers*/
+.title-container{
+    width:50%;
+    padding-bottom: 2px;
+}
+.frontpage-title {
+    margin:0;
+    font-family: 'Poppins ExtraBold', sans-serif;
+    font-weight: 1000;
+    font-size: clamp(40px, 4vw, 64px);
+    line-height: 1.4;
+    white-space: pre-line;
+    text-align:center;
+}
+.frontpage-description {
+    margin:0;
+    font-family: 'PoppinsSemiBold', sans-serif;
+    font-weight: 400;
+    font-size: clamp(16px, 1.2vw, 20px);
+    line-height: 1.6;
+    white-space: pre-line;
+    text-align:center;
+    color: gray;
+}
+
+.frontpage-info{
+    margin:0;
+    font-family: 'PoppinsRegular', sans-serif;
+    font-weight: 800;
+    font-size: clamp(22px, 1.4vw, 26px);
+    line-height: 1.6;
+    white-space: pre-line;
+    text-align:center;
+    color: gray;
+}
+
+.description-text-container{
+    width:50%;
+}
+
+.info-container{
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    height:100%;
+    background-color:#F2F0EF;
+    border-radius:16px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.08),
+        0 12px 20px rgba(0, 0, 0, 0.15);
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.button-container{
+    width:25%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.info-layout{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.bar-item-container{
+    display:flex;
+    flex:1;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}

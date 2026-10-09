@@ -1,0 +1,11 @@
+.t-white-black-button{
+    color:white;
+    background-color:black;
+    border-radius:16px;
+    font-family:'PoppinsSemiBold';
+    width:250px;
+    height: 60px;
+    font-weight:400px;
+    font-size: clamp(15px, 1.4vw, 18px);
+    cursor:pointer;
+}
